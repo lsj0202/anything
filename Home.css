@@ -1,0 +1,22 @@
+.home{
+    display: flex;
+    justify-content: center;
+    margin-left: auto; /*왼쪽과 오른쪽의 여백을 맞춰줌*/
+    margin-right: auto;
+    max-width: 2000px;
+}
+
+.home-image{
+    width: 100%;
+    z-index: -1;
+    margin-bottom: -150px;/*이미지가 깔리는것을 가능하게 해줌*/
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+.home_row{
+    display:flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
