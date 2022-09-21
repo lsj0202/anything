@@ -2,6 +2,7 @@ import React from 'react';
 import './Checkout.css'; /* CSS만 파일명을 쓰지 않는다. */
 import Subtotal from "./Subtotal";
 
+
 function Checkout(){
     return(
         <div className="Checkout"> 
